@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'Helvetica';
+	src: url('/font/Helvetica.eot');
+	src: url('/font/Helvetica.eot?#iefix') format('embedded-opentype'), url('/font/Helvetica.woff2') format('woff2'), url('/font/Helvetica.woff') format('woff'), url('/font/Helvetica.ttf') format('truetype'), url('Helvetica.svg#Helvetica') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'shutten_reasonregular';
+    src: url('/font/shutten_reason-webfont.woff2') format('woff2'),
+         url('/font/shutten_reason-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+    font-family: 'Helvetica';
+    font-weight: 500;
+  }
+  
+  h1{
+    color: #4E91A0;
+    margin-bottom: 0;
+    font-family: 'shutten_reasonregular';
+    font-size: 72px;
+  }
+  a {
+    text-decoration: none; 
+    font-size: 18px;
+
+    color: #252f3e;
+   }
+  a:hover{
+    color: #4E91A0;
+  }
+  ul{
+        padding-inline-start: 0px;
+  }
+  li {
+    padding-bottom: 25px;
+  }
+  hr{
+    width: 150px;
+    background-color: #4E91A0;
+    margin-top: 15px;
+    height: 2px;
+    color: #4E91A0;
+  }
+  
